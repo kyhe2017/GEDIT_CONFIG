@@ -1,4 +1,4 @@
-![Gedit look with DarkmateRT in Fortran](https://github.com/rjgtorres/open_scripts/blob/master/GEDIT_CONFIG/gedit_darkmateRT_look.png)
+![Gedit look with DarkmateRT in Fortran](https://github.com/rjgtorres/GEDIT_CONFIG/blob/master/gedit_darkmateRT_look.png)
 
 gedit configuration files for fortran programming.
 
