@@ -118,6 +118,7 @@
       <keyword>goto</keyword>
       <keyword>if</keyword>
       <keyword>implicit none</keyword>
+      <keyword>import</keyword>
       <keyword>in</keyword>
       <keyword>include</keyword>
       <keyword>inout</keyword>
@@ -455,7 +456,9 @@
     </context>
 
     <context id="type-attributes" style-ref="type">
+      <keyword>abstract</keyword>
       <keyword>allocatable</keyword>
+      <keyword>deferred</keyword>
       <keyword>dimension</keyword>
       <keyword>extends</keyword>
       <keyword>external</keyword>
@@ -464,6 +467,8 @@
       <keyword>intrinsic</keyword>
       <keyword>optional</keyword>
       <keyword>parameter</keyword>
+      <keyword>pass</keyword>
+      <keyword>nopass</keyword>
       <keyword>pointer</keyword>
       <keyword>private</keyword>
       <keyword>public</keyword>
