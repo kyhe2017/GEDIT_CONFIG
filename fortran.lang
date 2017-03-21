@@ -25,7 +25,7 @@
 <language id="fortran" _name="Fortran 95" version="2.0" _section="Sources">
   <metadata>
     <property name="mimetypes">text/x-fortran</property>
-    <property name="globs">*.f;*.f90;*.f95;*.for</property>
+    <property name="globs">*.f;*.f90;*.f95;*.f03;*.f08;*.for</property>
     <property name="line-comment-start">!</property>
   </metadata>
 
@@ -89,6 +89,9 @@
       <keyword>allocate</keyword>
       <keyword>assign</keyword>
       <keyword>assignment</keyword>
+      <keyword>associate</keyword>
+      <keyword>asynchronous</keyword>
+      <keyword>bind</keyword>
       <keyword>block data</keyword>
       <keyword>call</keyword>
       <keyword>case</keyword>
@@ -110,9 +113,13 @@
       <keyword>end select</keyword>
       <keyword>end where</keyword>
       <keyword>entry</keyword>
+      <keyword>enum</keyword>
+      <keyword>enumerator</keyword>
       <keyword>equivalence</keyword>
       <keyword>exit</keyword>
       <keyword>external</keyword>
+      <keyword>final</keyword>
+      <keyword>flush</keyword>
       <keyword>forall</keyword>
       <keyword>go to</keyword>
       <keyword>goto</keyword>
@@ -135,6 +142,7 @@
       <keyword>out</keyword>
       <keyword>pause</keyword>
       <keyword>private</keyword>
+      <keyword>protected</keyword>
       <keyword>public</keyword>
       <keyword>pure</keyword>
       <keyword>recursive</keyword>
@@ -146,8 +154,20 @@
       <keyword>stop</keyword>
       <keyword>then</keyword>
       <keyword>use</keyword>
+      <keyword>value</keyword>
+      <keyword>volatile</keyword>
       <keyword>where</keyword>
       <keyword>while</keyword>
+      <keyword>block</keyword>
+      <keyword>codimension</keyword>
+      <keyword>critical</keyword>
+      <keyword>error stop</keyword>
+      <keyword>submodule</keyword>
+      <keyword>sync all</keyword>
+      <keyword>sync images</keyword>
+      <keyword>sync memory</keyword>
+      <keyword>lock</keyword>
+      <keyword>unlock</keyword>
     </context>
 
     <context id="read-write" style-ref="keyword">
@@ -160,6 +180,7 @@
       <keyword>print</keyword>
       <keyword>read</keyword>
       <keyword>rewind</keyword>
+      <keyword>wait</keyword>
       <keyword>write</keyword>
     </context>
 
@@ -188,10 +209,10 @@
       <keyword>pad</keyword>
       <keyword>position</keyword>
       <keyword>readwrite</keyword>
+      <keyword>rewrite</keyword>
       <keyword>rec</keyword>
       <keyword>recl</keyword>
       <keyword>sequential</keyword>
-      <keyword>size</keyword>
       <keyword>status</keyword>
       <keyword>unformatted</keyword>
       <keyword>unit</keyword>
@@ -203,6 +224,7 @@
       <keyword>abs</keyword>
       <keyword>achar</keyword>
       <keyword>acos</keyword>
+      <keyword>acosh</keyword>
       <keyword>adjustl</keyword>
       <keyword>adjustr</keyword>
       <keyword>aimag</keyword>
@@ -220,9 +242,32 @@
       <keyword>anint</keyword>
       <keyword>any</keyword>
       <keyword>asin</keyword>
+      <keyword>asinh</keyword>
       <keyword>associated</keyword>
       <keyword>atan2</keyword>
       <keyword>atan</keyword>
+      <keyword>atanh</keyword>
+      <keyword>atomic_add</keyword>
+      <keyword>atomic_and</keyword>
+      <keyword>atomic_cas</keyword>
+      <keyword>atomic_define</keyword>
+      <keyword>atomic_fetch_add</keyword>
+      <keyword>atomic_fetch_and</keyword>
+      <keyword>atomic_fetch_or</keyword>
+      <keyword>atomic_fetch_xor</keyword>
+      <keyword>atomic_xor</keyword>
+      <keyword>atomic_or</keyword>
+      <keyword>atomic_ref</keyword>
+      <keyword>bessel_j0</keyword>
+      <keyword>bessel_j1</keyword>
+      <keyword>bessel_jn</keyword>
+      <keyword>bessel_y0</keyword>
+      <keyword>bessel_y1</keyword>
+      <keyword>bessel_yn</keyword>
+      <keyword>bge</keyword>
+      <keyword>bgt</keyword>
+      <keyword>ble</keyword>
+      <keyword>blt</keyword>
       <keyword>bit_size</keyword>
       <keyword>btest</keyword>
       <keyword>c_associated</keyword>
@@ -230,6 +275,7 @@
       <keyword>c_funloc</keyword>
       <keyword>c_f_pointer</keyword>
       <keyword>c_f_procpointer</keyword>
+      <keyword>c_sizeof</keyword>
       <keyword>cabs</keyword>
       <keyword>ccos</keyword>
       <keyword>cdabs</keyword>
@@ -244,10 +290,17 @@
       <keyword>clog</keyword>
       <keyword>cmplx</keyword>
       <keyword>command_argument_count</keyword>
+      <keyword>compiler_options</keyword>
+      <keyword>compiler_version</keyword>
       <keyword>conjg</keyword>
       <keyword>cosh</keyword>
       <keyword>cos</keyword>
       <keyword>count</keyword>
+      <keyword>co_broadcast</keyword>
+      <keyword>co_max</keyword>
+      <keyword>co_min</keyword>
+      <keyword>co_reduce</keyword>
+      <keyword>co_sum</keyword>
       <keyword>cpu_time</keyword>
       <keyword>cqabs</keyword>
       <keyword>cqcos</keyword>
@@ -288,6 +341,8 @@
       <keyword>dnint</keyword>
       <keyword>dot_product</keyword>
       <keyword>dprod</keyword>
+      <keyword>dshiftl</keyword>
+      <keyword>dshiftr</keyword>
       <keyword>dsign</keyword>
       <keyword>dsinh</keyword>
       <keyword>dsin</keyword>
@@ -297,9 +352,13 @@
       <keyword>eoshift</keyword>
       <keyword>epsilon</keyword>
       <keyword>erfc</keyword>
+      <keyword>erfc_scaled</keyword>
       <keyword>erf</keyword>
+      <keyword>event_query</keyword>
+      <keyword>execute_command_line</keyword>
       <keyword>exp</keyword>
       <keyword>exponent</keyword>
+      <keyword>extends_type_of</keyword>
       <keyword>float</keyword>
       <keyword>floor</keyword>
       <keyword>fraction</keyword>
@@ -309,9 +368,12 @@
       <keyword>get_command_argument</keyword>
       <keyword>get_environment_variable</keyword>
       <keyword>huge</keyword>
+      <keyword>hypot</keyword>
       <keyword>iabs</keyword>
       <keyword>iachar</keyword>
       <keyword>iand</keyword>
+      <keyword>iall</keyword>
+      <keyword>iany</keyword>
       <keyword>iargc</keyword>
       <keyword>ibclr</keyword>
       <keyword>ibits</keyword>
@@ -331,8 +393,12 @@
       <keyword>ishftc</keyword>
       <keyword>ishft</keyword>
       <keyword>isign</keyword>
+      <keyword>image_index</keyword>
+      <keyword>iparity</keyword>
       <keyword>kind</keyword>
       <keyword>lbound</keyword>
+      <keyword>lcobound</keyword>
+      <keyword>leadz</keyword>
       <keyword>len_trim</keyword>
       <keyword>len</keyword>
       <keyword>lge</keyword>
@@ -342,7 +408,10 @@
       <keyword>loc</keyword>
       <keyword>log10</keyword>
       <keyword>log</keyword>
+      <keyword>log_gamma</keyword>
       <keyword>logical</keyword>
+      <keyword>maskl</keyword>
+      <keyword>maskr</keyword>
       <keyword>matmul</keyword>
       <keyword>max0</keyword>
       <keyword>max1</keyword>
@@ -351,6 +420,7 @@
       <keyword>maxval</keyword>
       <keyword>max</keyword>
       <keyword>merge</keyword>
+      <keyword>merge_bits</keyword>
       <keyword>min0</keyword>
       <keyword>min1</keyword>
       <keyword>minexponent</keyword>
@@ -364,10 +434,15 @@
       <keyword>nearest</keyword>
       <keyword>new_line</keyword>
       <keyword>nint</keyword>
+      <keyword>norm2</keyword>
       <keyword>not</keyword>
       <keyword>null</keyword>
+      <keyword>num_images</keyword>
       <keyword>or</keyword>
       <keyword>pack</keyword>
+      <keyword>parity</keyword>
+      <keyword>popcnt</keyword>
+      <keyword>poppar</keyword>
       <keyword>precision</keyword>
       <keyword>present</keyword>
       <keyword>product</keyword>
@@ -403,10 +478,12 @@
       <keyword>random_number</keyword>
       <keyword>random_seed</keyword>
       <keyword>range</keyword>
+      <keyword>rank</keyword>
       <keyword>real</keyword>
       <keyword>repeat</keyword>
       <keyword>reshape</keyword>
       <keyword>rrspacing</keyword>
+      <keyword>same_type_as</keyword>
       <keyword>scale</keyword>
       <keyword>scan</keyword>
       <keyword>selected_char_kind</keyword>
@@ -414,6 +491,9 @@
       <keyword>selected_real_kind</keyword>
       <keyword>set_exponent</keyword>
       <keyword>shape</keyword>
+      <keyword>shifta</keyword>
+      <keyword>shiftl</keyword>
+      <keyword>shiftr</keyword>
       <keyword>sign</keyword>
       <keyword>sinh</keyword>
       <keyword>sin</keyword>
@@ -422,15 +502,19 @@
       <keyword>spacing</keyword>
       <keyword>spread</keyword>
       <keyword>sqrt</keyword>
+      <keyword>storage_size</keyword>
       <keyword>sum</keyword>
       <keyword>system_clock</keyword>
       <keyword>tanh</keyword>
       <keyword>tan</keyword>
+      <keyword>this_image</keyword>
       <keyword>tiny</keyword>
+      <keyword>trailz</keyword>
       <keyword>transfer</keyword>
       <keyword>transpose</keyword>
       <keyword>trim</keyword>
       <keyword>ubound</keyword>
+      <keyword>ucobound</keyword>
       <keyword>unpack</keyword>
       <keyword>verify</keyword>
       <keyword>zabs</keyword>
@@ -466,9 +550,10 @@
       <keyword>intent</keyword>
       <keyword>intrinsic</keyword>
       <keyword>optional</keyword>
+      <keyword>non_overridable</keyword>
+      <keyword>nopass</keyword>
       <keyword>parameter</keyword>
       <keyword>pass</keyword>
-      <keyword>nopass</keyword>
       <keyword>pointer</keyword>
       <keyword>private</keyword>
       <keyword>public</keyword>
