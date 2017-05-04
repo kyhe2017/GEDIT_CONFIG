@@ -76,13 +76,17 @@
     <context id="functions" style-ref="func">
       <keyword>function</keyword>
       <keyword>end function</keyword>
+      <keyword>endfunction</keyword>
       <keyword>module</keyword>
       <keyword>end module</keyword>
+      <keyword>endmodule</keyword>
       <keyword>procedure</keyword>
       <keyword>program</keyword>
       <keyword>end program</keyword>
+      <keyword>endprogram</keyword>
       <keyword>subroutine</keyword>
       <keyword>end subroutine</keyword>
+      <keyword>endsubroutine</keyword>
     </context>
 
     <context id="keywords" style-ref="keyword">
@@ -112,6 +116,10 @@
       <keyword>end if</keyword>
       <keyword>end select</keyword>
       <keyword>end where</keyword>
+      <keyword>enddo</keyword>
+      <keyword>endif</keyword>
+      <keyword>endselect</keyword>
+      <keyword>endwhere</keyword>
       <keyword>entry</keyword>
       <keyword>enum</keyword>
       <keyword>enumerator</keyword>
@@ -131,6 +139,7 @@
       <keyword>inout</keyword>
       <keyword>interface</keyword>
       <keyword>end interface</keyword>
+      <keyword>endinterface</keyword>
       <keyword>intrinsic</keyword>
       <keyword>is</keyword>
       <keyword>kind</keyword>
@@ -536,6 +545,7 @@
       <keyword>real</keyword>
       <keyword>type</keyword>
       <keyword>end type</keyword>
+      <keyword>endtype</keyword>
       <keyword>class</keyword>
     </context>
 

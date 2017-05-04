@@ -74,7 +74,7 @@ end if]]></text>
 	${4:contains}
 
 	${0:source}
-end module]]></text>
+end module $1]]></text>
     <tag>mod</tag>
   </snippet>
   <snippet>
