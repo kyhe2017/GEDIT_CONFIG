@@ -158,6 +158,9 @@
       <keyword>subroutine</keyword>
       <keyword>end subroutine</keyword>
       <keyword>endsubroutine</keyword>
+      <keyword>block</keyword>
+      <keyword>end block</keyword>
+      <keyword>endblock</keyword>
     </context>
 
     <context id="keywords" style-ref="keyword">
@@ -225,6 +228,7 @@
       <keyword>protected</keyword>
       <keyword>public</keyword>
       <keyword>pure</keyword>
+      <keyword>impure</keyword>
       <keyword>recursive</keyword>
       <keyword>result</keyword>
       <keyword>return</keyword>
@@ -238,7 +242,6 @@
       <keyword>volatile</keyword>
       <keyword>where</keyword>
       <keyword>while</keyword>
-      <keyword>block</keyword>
       <keyword>codimension</keyword>
       <keyword>critical</keyword>
       <keyword>error stop</keyword>
