@@ -89,6 +89,7 @@
   <style name="def:boolean"                 foreground="fuchsia" bold="true"/>
   <style name="def:constant"                foreground="yellow"/>
   <style name="def:special-constant"        foreground="fuchsia" bold="true"/>
+  <style name="def:special-char"            foreground="fuchsia"/>
 
    
 <!--
